@@ -9,7 +9,7 @@ var app = require('../index');
 var debug = require('debug')('express-mongodb-api:server');
 var http = require('http');
 // const logger = require('../src/logger');
-// const config = require('../src/config');
+const config = require('../src/config');
 
 /**
  * Get port from environment and store in Express.
